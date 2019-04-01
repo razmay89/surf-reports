@@ -1,0 +1,15 @@
+<ul>
+  <li *ngFor="let report of reports">
+    <div class="report-container">
+      <div class="profile-container">
+      <img id="profile_pic" src="{{report.profileImageUrl}}">
+      <h4 id="profile_name">{{report.reporterName}}</h4>
+    </div>
+    <div class="text_container">
+      <p id="report_text">{{report.report}}</p>
+    </div>
+    <br>
+      <img class="report_pic" src="{{report.photo}}">
+    </div>
+  </li>
+</ul>

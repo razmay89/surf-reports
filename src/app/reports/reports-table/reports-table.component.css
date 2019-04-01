@@ -1,0 +1,60 @@
+
+.report-container{
+    border: 1px solid black;
+    margin-bottom: 3%;
+    height: 20%;
+    
+}
+
+ul{
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    
+}
+
+li{
+    list-style: none;
+    background-color: white;
+    
+}
+
+.profile-container{
+    width: 30%;
+    padding-bottom: 2%; 
+    float: right;
+    background-color: thistle;
+    
+    
+}
+
+#profile_pic{
+    width:80px;height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin-top :5%;
+    padding-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+#profile_name{
+   text-align: center;
+   margin: 0px;
+}
+
+#text_container{
+     width:70%;
+}
+
+#report_text{
+    padding: 1%;
+}
+
+.report_pic{
+    width:98%;
+    padding: 1%;
+    
+}
