@@ -18,7 +18,7 @@ export class ReportsTableComponent implements OnInit {
 
   constructor() {
 
-    this.reports = [{reporterName:"יחיאל סלייטרסקי", profileImageUrl:"../../../assets/images/kelly.jpg", report:"גלים טובים אחושרמוטה", photo:"../../assets/images/report1.jpg"},
+    this.reports = [{reporterName:"יחיאל סלייטרסקי", profileImageUrl:"../../../assets/images/kelly.jpg", report:"גלים טובים אחושרמוטה", photo:"../../../assets/images/report1.jpg"},
     {reporterName:"אנדריי איירונס", profileImageUrl:"../../../assets/images/andy.jpg", report:"  משהו מלחיץ טקסט ארוך לבדיקה יבאביי גלים טובים אך לא משהו", photo:"../../../assets/images/report2.jpg"},
     {reporterName:"אביהו מדינה", profileImageUrl:"../../../assets/images/medina.jpg", report:this.reportDummyText, photo:"../../../assets/images/report3.jpg"},
     {reporterName:"יהונתן פרחי", profileImageUrl:"../../../assets/images/john-john-florence_fe.jpg", report:this.reportDummyText, photo:"../../../assets/images/report4.jpg"}];
